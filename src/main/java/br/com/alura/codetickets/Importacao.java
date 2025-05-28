@@ -24,6 +24,16 @@ public class Importacao {
     private Double valor;
     private LocalDateTime horaImportacao;
 
+    private Double taxaAdm;
+
+    public Double getTaxaAdm() {
+        return taxaAdm;
+    }
+
+    public void setTaxaAdm(Double taxaAdm) {
+        this.taxaAdm = taxaAdm;
+    }
+
     public Long getId() {
         return id;
     }
